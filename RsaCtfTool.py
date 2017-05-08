@@ -398,7 +398,7 @@ class RSAAttack(object):
                 if self.args.uncipher is not None:
                     print "[-] Sorry, cracking failed"
 
-    implemented_attacks = [ nullattack, hastads, factordb, pastctfprimes, noveltyprimes, smallq, wiener, comfact_cn, fermat, siqs ]
+    implemented_attacks = [ comfact_cn ]
 
 # source http://stackoverflow.com/a/22348885
 class timeout:
